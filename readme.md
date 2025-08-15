@@ -141,8 +141,7 @@ Generate **undirected**, **directed**, and **road graphs** from saved `.pkl` fil
 ## ⚙️ Requirements
 
 - Python 3.8+
-- Pandas, NumPy, GeoPandas, Matplotlib, NetworkX
-- SQLite (via `sqlite3` or custom Database class)
+- It is recommended to use a virtual environment and install dependencies from `requirements.txt`.
 
 ---
 
