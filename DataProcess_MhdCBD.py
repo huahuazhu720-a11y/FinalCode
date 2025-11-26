@@ -15,7 +15,7 @@ from matplotlib.patches import FancyArrowPatch
 from itertools import islice
 import random
 import requests
-API_KEY = "YOUR_api_KEY"
+API_KEY = os.getenv('google_API_KEY')
 def get_free_flow_time(nodes, start_node, end_node, mode):
     try:
         # 获取起始点和终点的经纬度
